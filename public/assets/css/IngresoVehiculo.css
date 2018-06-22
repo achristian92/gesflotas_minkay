@@ -1,0 +1,29 @@
+.navbar {
+	margin-bottom: 50px;
+	border-radius: 0;
+}
+
+body {
+	background-color: #FFF0C9;
+}
+
+fieldset.a1 {
+	border:0 none;
+}
+
+h3.bb {
+	margin-top: -0.5cm;
+}
+
+#fake-file-input-name {
+	display: block;    
+	width: 104%;    
+	height: 34px;    
+	padding: 5px 5px;    
+	font-size: 14px;    
+	line-height: 1.42857143;    
+	color: #555;    
+	background-color: #fff;
+	background-image: none;    
+	border: 1px solid #ccc;    
+	border-radius: 4px;  }

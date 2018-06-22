@@ -1,0 +1,190 @@
+<style>div#success-alert.alert.alert-success {
+    color: #305e30;
+    background-color: #e2f1db;
+    border-color: #e2f1db;
+    max-width: 400px;
+    position: absolute;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.Title {
+    animation-name: flash;
+    animation-duration: 0.5s;
+    margin-top: -15px;
+    color: rgb(13,143,55);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 28px;
+}
+.u-shadow {
+    text-shadow: 4px 4px 5px rgba(111, 209, 189, 0.6);
+}
+fieldset {
+    border: 0;
+}
+<<<<<<< HEAD
+
+img.img-thumbnail
+{
+        top: 65px;
+        height: 132px;
+        width: 227px;
+        right: 85px;
+        position: absolute;
+
+
+    }
+
+label.control-label.kilm{
+        font-size: 12px;
+
+    }
+
+div#botonesopciones1.col-md-3{
+width: 22%;
+
+}
+
+
+button#BotnCambEst.btn.btn-primary.BotonDetalle{
+     background-color: red;}
+
+
+button.btn.btn-primary.BotonDetalle {
+    font-weight: bold;
+    color: rgb(13,143,55);
+    width: 75%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    font-size: 14px;
+    height: 45px;
+    border-color:  rgba(229,2,120,0.2);
+    border-width: 2px;
+    margin-bottom: 22px;
+    letter-spacing: 0.2px
+}
+
+img.img-thumbnail {
+    top: 65px;
+    height: 132px;
+    width: 227px;
+    right: 85px;
+    position: absolute;
+}
+label.control-label.kilm {
+    font-size: 12px;
+}
+div#botonesopciones1.col-md-3 {
+    width: 22%;
+}
+button#BotnAct.btn.btn-primary.BotonDetalle {
+    margin-top: 1.5cm;
+}
+button#BotnCambEst.btn.btn-primary.BotonDetalle {
+    background-color: rgba(229, 0, 0, 0.2);
+    border-color:  rgba(229,2,120,0.1);
+    border-width: 2px;
+
+}
+
+button#BotnCambEst.btn.btn-primary.BotonDetalle:focus{
+    outline: 0px;
+}
+
+div#colcaracteristicas.col-md-6 {
+    width: 53%;
+}
+div#colindicadores.col-md-3 {
+    margin-top: 20px;
+}
+fieldset#fieldDatoscond {
+    width: 85%;
+    margin: auto;
+}
+p.mensjadvt {
+    color: green;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+div#dlgactkilm.modal-dialog {
+    top: 0;
+}
+<<<<<<< HEAD
+
+.modal-header{
+    background-color: #e50278;
+
+=======
+.modal-header {
+    background-color: rgb(0, 128, 255);
+>>>>>>> 80cbff3699f31417903e2e3e43c87f8c4d92fc3b
+}
+h4.modal-title {
+    color: white;
+}
+<<<<<<< HEAD
+
+
+div#colmant10.col-md-4{
+    padding-left: 5px; 
+=======
+div#cabRegM.modal-header {
+    background-color: rgb(0, 128, 255);
+}
+div#colmant10.col-md-4 {
+    padding-left: 5px;
+>>>>>>> 80cbff3699f31417903e2e3e43c87f8c4d92fc3b
+    padding-right: 12px;
+}
+div#colmant102.col-md-4 {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#rowcolfech {
+    margin-right: -5px;
+}
+#clkimre4 {
+    padding-left: 12px;
+    padding-right: 5px;
+}
+#lblprox1 {
+    margin-top: -2px;
+}
+input#txtnewkilo.form-control.input-md {
+    height: 28px
+}
+div#mdlrgcomb.modal-dialog {
+    top: 0%;
+    width: 32%;
+    min-width: 300px;
+}
+#mdldgcbes {
+    max-width: 450px;
+<<<<<<< HEAD
+} 
+
+#mlhr1020{
+    background-color: rgba(0,0,0,0.6); 
+=======
+}
+#mlhr1020 {
+    background-color: rgba(0, 0, 0, 0.5);
+>>>>>>> 80cbff3699f31417903e2e3e43c87f8c4d92fc3b
+    padding: 1px;
+}
+#bncl45 {
+    margin-top: 1px;
+    margin-right: 10px;
+}
+#spnx {
+    color: #fff;
+    font-size: 30px;
+}
+.sr-only.w {
+    text-decoration-color: white;
+}
+</style>

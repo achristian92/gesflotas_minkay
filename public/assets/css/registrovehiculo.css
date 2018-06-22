@@ -1,0 +1,190 @@
+
+.editveh{
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: -15px;
+  padding-bottom: 15px }
+
+div#contenedor_titulo.container {
+        margin-bottom: 10px;
+    }
+
+ul.nav.nav-tabs {
+        border-bottom: #fff;
+        margin-top: 0px;
+        max-width: 835px;
+        width:  835px
+        -moz-width: 1000px;
+        margin-bottom: 15px;
+        margin-left: 72px;
+    }
+
+
+@keyframes flash {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+
+div.tab-content{     
+      animation-name: flash;
+      animation-duration: 0.9s;
+      max-width: 1070px; 
+      padding-top:20px; 
+      padding-bottom: 8px; 
+      margin-top: -28px; 
+      padding-right: 1px; 
+      background-color: rgba(248,243,237,0.2);
+      padding-left:0px; 
+      box-shadow: 10px 10px 5px rgba(220,220,220, 0.1);
+
+
+}
+
+.nav-tabs>li>a.barra {
+  
+  background-color: #1c9142;
+  font-family: Verdana;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 13px;
+  padding: 5px 15px;
+ 
+    }
+
+  
+
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+        outline: 0px;
+        background-color: #027728;
+        color: white;
+    }
+
+
+
+
+
+
+    label.control-label {
+        text-align: left;
+        font-size: 12.5px;
+        margin-right: auto;
+    }
+
+
+
+
+    .error {
+        display: none;
+    }
+    div#divPoseeSoat.form-group {
+        margin-bottom: 18px;
+        margin-top: 15px;
+    }
+    div#botonessiono {
+        margin-top: 3px
+    }
+    input#fake-file-input-name {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+input#btnContinuar.btn.btn-default
+{  
+margin-left: -90px;
+background-color: #027728;
+color: white;
+font-weight: bold;
+padding-top: 8px;
+padding-bottom: 8px;
+transition: 0.7s ease all;
+border-radius: 7px;
+transition: all 550ms ;
+border-color: transparent;
+
+}
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+div.col-sm-offset-1.col-md-3{
+    padding-left: 0px;
+
+}
+
+.col-sm-offset-1{
+    margin-left: 6%;
+}
+
+.veh{
+    width: 22%;
+}
+
+.panel2{
+    margin-left: 165px
+}
+
+.actk{
+    padding-right: 2px;
+    margin-left: 13%;
+}
+
+.datg{
+    margin-left: 11.5%;
+    width: 27%
+}
+
+
+
+
+
+
+
