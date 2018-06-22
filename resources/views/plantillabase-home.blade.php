@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>
-           COMPARTAMOS  | MINKAY
+           PROYECTO MINKAY
         </title>
         <meta charset="utf-8">
             <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -17,9 +17,6 @@
                                         --}}
                                         <style>
 
-    body{
-       
-    }
     .navbar {
       margin-bottom: 50px;
       border-radius: 0;
@@ -150,18 +147,18 @@ a.dirmen:before {
     </head>
     <body>
         {!! csrf_field() !!}
-        <nav class="navbar" style="background-color: rgb(3,133,45)">
+        <nav class="navbar" style="background-color: #efefef">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" style="display: inline-block; padding-top: 0px">
-                        <img height="48" src="assets/img/logomibanco.png" style="float: left; padding-top: 2px" width="150"/>
+                    <a class="navbar-brand" style="display: inline-block; padding-top: 7px">
+                        <img height="30" src="assets/img/logominkay.png" style="float: left; padding-top: 2px" width="150"/>
                     </a>
 
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="margin-top: 10px">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="margin-top: 10px; color: #6f6f6f">
                                 <span class="glyphicon glyphicon-user">
                                 </span>
                                 <strong>

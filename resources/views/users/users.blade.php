@@ -3,9 +3,9 @@
 <style>
 
 btn-info.active, .btn-info.focus, .btn-info:active, .btn-info:focus, .btn-info:hover, .open>.dropdown-toggle.btn-info, .btn-info{
-        background-color: #0f7f31;
-        border-color: #0f7f31;
-    }
+        background-color: #5bc0de;
+        border-color: #5bc0de;
+        font-weight: bold}
 
 .glyphicon{
     top: 2px
@@ -18,7 +18,7 @@ btn-info.active, .btn-info.focus, .btn-info:active, .btn-info:focus, .btn-info:h
   }
 
 #btbscus{
-    background-color: #0f7f31;
+    background-color: #5bc0de;
 }
 
 #btbscus:focus{

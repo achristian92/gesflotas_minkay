@@ -28,8 +28,8 @@
 	}
 
 	.btn-info{
-		background-color: #33834b;
-		border-color: #33834b;
+		background-color: #0099d0;
+		border-color: #0099d0;
 	}
 	
 </style>

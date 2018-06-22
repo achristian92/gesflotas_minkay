@@ -11,7 +11,7 @@
     animation-name: flash;
     animation-duration: 0.5s;
     margin-top: -15px;
-    color: rgb(13,143,55);
+    color: #01adf4;
     font-weight: bolder;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ button#BotnCambEst.btn.btn-primary.BotonDetalle{
 
 button.btn.btn-primary.BotonDetalle {
     font-weight: bold;
-    color: rgb(13,143,55);
+    color: #008fd6;
     width: 75%;
     background-color: white;
     border-radius: 8px;
@@ -65,7 +65,7 @@ button.btn.btn-primary.BotonDetalle {
     border-color:  rgba(229,2,120,0.2);
     border-width: 2px;
     margin-bottom: 22px;
-    letter-spacing: 0.2px
+    letter-spacing: 0.3px;
 }
 
 img.img-thumbnail {

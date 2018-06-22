@@ -38,8 +38,8 @@
                 <div class="col-md-4">
                     <form action={{ route('xls.papeletas', $nro_placa) }} method="post">
                         {{csrf_field()}}
-                        <button class="btn btn-success" type="submit">
-                            EXPORTAR A EXCEL
+                        <button class="btn btn-success" type="submit" style="background-color: white; border-color: white; color: black">
+                            EXPORTAR A <img src="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Microsoft-Excel-2013-icon.png" height="25" width="25">
                         </button>
 
                     </form>

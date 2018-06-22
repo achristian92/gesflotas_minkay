@@ -39,11 +39,8 @@
         }
     </style>
 
-        <h3>      
-                
+        <h3>                      
                     MÓDULO GENERADOR DE REPORTES
-                
-            
         </h3>
  
     <!-- Text input-->
@@ -88,8 +85,8 @@
                             </div>
                         </div>
                         <center>
-                            <button class="btn btn-success" id="generarExcel" onclick="this.form.action='excel'" type="submit">
-                                GENERAR EXCEL
+                            <button class="btn btn-info" id="generarExcel" onclick="this.form.action='excel'" type="submit" style="background-color: white; border-color: white; color: black">
+                                GENERAR <img src="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Microsoft-Excel-2013-icon.png" height="25" width="25">
                             </button>
                         </center>
                     </form>
@@ -136,8 +133,8 @@
                             </div>
                         </div>
                         <center>
-                            <button class="btn btn-success" id="generarExcel" type="submit">
-                                GENERAR EXCEL
+                            <button class="btn btn-info" id="generarExcel" type="submit" style="background-color: white; border-color: white; color: black">
+                                GENERAR <img src="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Microsoft-Excel-2013-icon.png" height="25" width="25">
                             </button>
                         </center>
                     </form>
@@ -184,8 +181,8 @@
                             </div>
                         </div>
                         <center>
-                            <button class="btn btn-success" id="generarExcel" type="submit">
-                                GENERAR EXCEL
+                            <button class="btn btn-info" id="generarExcel" type="submit" style="background-color: white; border-color: white; color: black">
+                                GENERAR <img src="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Microsoft-Excel-2013-icon.png" height="25" width="25">
                             </button>
                         </center>
                     </form>

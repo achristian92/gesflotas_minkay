@@ -42,19 +42,19 @@
                    
          
     </head>
-    <body style="background-color: rgb(249,249,249);">
+    <body >
         {!! csrf_field() !!}
-        <nav class="navbar" style="background-color: #03852d">
+        <nav class="navbar" style="background-color: #efefef">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="{{  route('usuario.index')  }}" style="padding-top: 0px">
-                        <img src="../../assets/img/btnregresar.png" height="50" width="50"  />
+                    <a class="navbar-brand" href="{{  route('usuario.index')  }}" style="padding-top: 5px">
+                        <img src="../../assets/img/btnregresar.png" height="40" width="40"  />
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: #6f6f6f">
                                 <span class="glyphicon glyphicon-user">
                                 </span>
                                 <strong>

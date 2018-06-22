@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>
-           COMPARTAMOS | MINKAY
+           PROYECTO MINKAY
         </title>
         <meta charset="utf-8">
             
@@ -67,8 +67,6 @@ background-color: transparent;
     background-color: transparent;
 }
 
-
-
 a.dirmen{
     background: rgba(141, 225, 143, 0.1);
     text-decoration: none;
@@ -76,7 +74,7 @@ a.dirmen{
     border-left: 1px solid rgba(0,0,0,0.2);*/
     border-radius: 2px;
     font-weight: 700;
-    color: #fcfcfc;
+    color: #5d5d5d;
     cursor: pointer;
     display: block;
     position: relative;
@@ -89,8 +87,8 @@ a.dirmen{
 }
 
 a.dirmen:hover {
-    color: #fff ;    
-    text-shadow: 2px 2px rgba(255,255, 255 , 0.3) ;
+    color: #5d5d5d ;    
+    text-shadow: 1.5px 1.5px rgba(0,0, 0 , 0.2) ;
     text-decoration: underline;
 
 }
@@ -109,11 +107,11 @@ a.dirmen:hover {
     </head>
     <body >
         {!! csrf_field() !!}
-        <nav class="navbar" style="background-color: rgb(3,133,45)">
+        <nav class="navbar" style="background-color: #efefef">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" style="display: inline-block; padding-top: 0px">
-                        <img height="48" src="../assets/img/logomibanco.png" width="150" style="float: left; padding-top: 2px" />
+                    <a class="navbar-brand" style="display: inline-block; padding-top: 7px">
+                        <img height="30" src="../assets/img/logominkay.png" width="150" style="float: left; padding-top: 2px" />
                     </a>
                 </div>
                 <ul class="menuflotas">
@@ -159,7 +157,7 @@ a.dirmen:hover {
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="margin-top: 10px">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="margin-top: 10px; color: #6f6f6f">
                                 <span class="glyphicon glyphicon-user">
                                 </span>
                                 <strong>

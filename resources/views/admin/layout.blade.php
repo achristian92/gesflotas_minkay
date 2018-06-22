@@ -50,23 +50,19 @@
 
 
 .skin-blue .sidebar a{
-  color: white
+  color: #282828
 }
 
 .skin-blue .main-header .navbar
 {  background-color: #ededed;
 }
 
-  .skin-blue .main-header .logo{
-    background-color: #33834b;
-  }
-
-  .skin-blue .main-header .logo:hover{
-    background-color: #33834b
+  .skin-blue .main-header .logo, .logo:hover{
+    background-color: #ededed!important;
   }
 
   .skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{
-    background-color: #33834b
+    background-color: #ededed
   }
 
   .skin-blue .sidebar-menu>li.header{
@@ -75,7 +71,7 @@
   }
 
   .skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a{
-    background: #0b401b;
+    background: #0099d0;
   }
 
   .skin-blue .sidebar-menu>li.active>a{
@@ -115,7 +111,7 @@
       </span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"> 
-        <img height="48" width="140" src="assets/img/logomibancolte123.png" style="margin-top: -4px; margin-left: -5px" />
+        <img height="35" width="140" src="assets/img/logominkay.png" style="margin-top: -4px; margin-left: -5px" />
       </span>
     </a>
 
@@ -136,7 +132,7 @@
               <!-- The user image in the navbar-->
               <img src="http://www.escrituradigital.net/fdypc/wp-content/uploads/2017/03/avatar-blank.png" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Jose Córdova</span>
+              <span class="hidden-xs">Erick Smith</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -144,7 +140,7 @@
                 <img src="http://www.escrituradigital.net/fdypc/wp-content/uploads/2017/03/avatar-blank.png" class="img-circle" alt="User Image">
 
                 <p>
-                  Jose Córdova - Desarrollador Web
+                  Erick Smith
                 
                 </p>
               </li>

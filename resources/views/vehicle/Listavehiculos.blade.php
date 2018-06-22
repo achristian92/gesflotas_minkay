@@ -13,9 +13,10 @@
  }
 
  .btn-info,.btn-info.active, .btn-info.focus, .btn-info:active, .btn-info:focus, .btn-info:hover, .open>.dropdown-toggle.btn-info{
-        background-color: #03852d;
-    border-color: #1c9142;
-    letter-spacing: 0.5px;
+        background-color: #00abe9;
+    border-color: #00abe9;
+   
+    font-weight: bold;
  }
 
 
@@ -34,7 +35,7 @@ div#success-alert.alert.alert-success{
 
 
 #bnbsveh{
-    background-color: #03852d ;
+    background-color: #00abe9 ;
     padding-top: 9px;
     padding-bottom: 10px;
     margin-top: -0.5px;
@@ -69,7 +70,7 @@ div#success-alert.alert.alert-success{
 }
 
 .pagination>.active>span, .pagination>.active>span:focus{
-    background-color: #0f8f0f;
+    background-color: #337ab7;
 }
 #botonexpor{
     background-color: white;

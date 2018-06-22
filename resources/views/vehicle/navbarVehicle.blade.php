@@ -54,13 +54,13 @@ a.dropdown-toggle{
             </meta>
         </meta>
     </head>
-    <body style="background-color: rgb(249,249,249);">
+    <body style="background-color: rgb(253,253,253);">
         {!! csrf_field() !!}
-        <nav class="navbar" style="background-color: #03852d">
+        <nav class="navbar" style="background-color: #efefef">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="{{  route('vehiculo.index')  }}" style="padding-top: 2px">
-                        <img src="../../assets/img/btnregresar.png" height="45" width="45" />
+                    <a class="navbar-brand" href="{{  route('vehiculo.index')  }}" style="padding-top: 7px">
+                        <img src="../../assets/img/btnregresar.png" height="35" width="45" />
                     </a>
                 </div>
                 {{-- <div class="collapse navbar-collapse" id="myNavbar">

@@ -31,6 +31,7 @@
         </strong>
     </h3>
 </center>
+<div class="container">
 <div class="row">
     @foreach($historialanexos as $image)
         <div class="col-md-4">
@@ -43,7 +44,7 @@
         </div>
     @endforeach
 </div>
-
+</div>
 
 
 @stop

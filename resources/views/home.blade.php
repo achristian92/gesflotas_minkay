@@ -14,23 +14,17 @@
       border-top-color: transparent;
     }
 
-    button.btn.btn-default{
-       background-color:  #049004 ;
-       border-color:  #049004;
-       color: white;
-       font-weight: bold;
 
-       }
 
     div.panel.panel-danger{
       border-color: transparent;
       
     }
 
-.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus
+ button.btn.btn-default,.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus
 {
-  background-color: #049004;
-  border-color:  #049004;
+  background-color: #00abe9;
+  border-color:  #00abe9;
   color: white;
   font-weight: bold;
 }

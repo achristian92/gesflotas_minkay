@@ -8,7 +8,7 @@
                     <meta content="{{ csrf_token() }}" name="csrf-token">
                         <title>
                            {{--  {{ config('app.name', 'Laravel') }} --}}
-                           MIBANCO | MINKAY
+                           PROYECTO MINKAY
                         </title>
                         <!-- Styles -->
                         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -41,7 +41,7 @@
                         <!-- Branding Image -->
                         <a class="navbar-brand" href="{{ url('/') }}">
                            {{--  {{ config('app.name', 'Laravel') }} --}}
-                           MIBANCO | MINKAY
+                           MINKAY
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="app-navbar-collapse">
