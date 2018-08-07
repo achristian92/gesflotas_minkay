@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>
-           PROYECTO MINKAY
+           DEMO FLOTAS
         </title>
         <meta charset="utf-8">
             <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -151,7 +151,7 @@ a.dirmen:before {
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" style="display: inline-block; padding-top: 7px">
-                        <img height="30" src="assets/img/logominkay.png" style="float: left; padding-top: 2px" width="150"/>
+                        <img height="30" src="assets/img/demo.png" style="float: left; padding-top: 2px" width="150"/>
                     </a>
 
                 </div>

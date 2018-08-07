@@ -8,7 +8,7 @@
                     <meta content="{{ csrf_token() }}" name="csrf-token">
                         <title>
                            {{--  {{ config('app.name', 'Laravel') }} --}}
-                           PROYECTO MINKAY
+                           DEMO FLOTAS
                         </title>
                         <!-- Styles -->
                         <link href="{{ asset('css/app.css') }}" rel="stylesheet">

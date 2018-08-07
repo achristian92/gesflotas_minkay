@@ -257,6 +257,18 @@
 
                                         </div>
                                         <div class="col-sm-offset-1 col-md-3 veh">
+                                             <div class="form-group" id="divAnModVel">
+                                                <label class="control-label" for="anio_modelo_vehiculo" style="margin-left: -95px">
+                                                    AÑO DEL MODELO
+                                                </label>
+                                                <div>
+                                                    <select class="form-control" id="anio_modelo_vehiculo" name="anio_modelo_vehiculo">
+                                                    </select>
+                                                </div>
+                                                <span class="label label-danger error" id="msgAnModVel">
+                                                    *Seleccionar año de modelo.
+                                                </span>
+                                            </div>
                                             <div class="form-group" id="divPlaca">
                                                 <label class="control-label" for="nro_placa" style="margin-left: -165px">
                                                     PLACA
@@ -306,6 +318,10 @@
                                             </div>
                                             <!-- Select Basic -->
                                             <!-- Text input-->
+                                            
+                                            <!-- Select Basic -->
+                                        </div>
+                                        <div class="col-sm-offset-1 col-md-3 veh">
                                             <div class="form-group" id="divPotVel">
                                                 <label class="control-label" for="fuerza_vehiculo" style="margin-left: -140px">
                                                     POTENCIA
@@ -318,9 +334,6 @@
                                                     *Ingrese potencia del vehículo.
                                                 </span>
                                             </div>
-                                            <!-- Select Basic -->
-                                        </div>
-                                        <div class="col-sm-offset-1 col-md-3 veh">
                                             <div class="form-group" id="divTipoCombustible">
                                                 <label class=" control-label" for="idtipo_combustible" style="margin-left: -65px">
                                                     TIPO DE COMBUSTIBLE
@@ -346,18 +359,7 @@
                                                 </span>
                                             </div>
                                             <!-- Text input-->
-                                            <div class="form-group" id="divAnModVel">
-                                                <label class="control-label" for="anio_modelo_vehiculo" style="margin-left: -95px">
-                                                    AÑO DEL MODELO
-                                                </label>
-                                                <div>
-                                                    <select class="form-control" id="anio_modelo_vehiculo" name="anio_modelo_vehiculo">
-                                                    </select>
-                                                </div>
-                                                <span class="label label-danger error" id="msgAnModVel">
-                                                    *Seleccionar año de modelo.
-                                                </span>
-                                            </div>
+                                           
                                            {{--  <div class="form-group" id="divPoseeSoat">
                                                 <label class="control-label" for="radios">
                                                     ¿TIENE SOAT?

@@ -103,7 +103,7 @@
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="{{  route('vehiculo.create')  }}" class="logo">
+    <a href="{{  route('home')  }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">
                 <img height="20" width="20" src="assets/img/montesminkay.png" style="margin-top: -4px; margin-left: -5px" />
@@ -111,7 +111,7 @@
       </span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"> 
-        <img height="35" width="140" src="assets/img/logominkay.png" style="margin-top: -4px; margin-left: -5px" />
+        <img height="35" width="140" src="assets/img/demo.png" style="margin-top: -4px; margin-left: -5px" />
       </span>
     </a>
 

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>
-           PROYECTO MINKAY
+           DEMO FLOTAS
         </title>
         <meta charset="utf-8">
             
@@ -111,7 +111,7 @@ a.dirmen:hover {
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" style="display: inline-block; padding-top: 7px">
-                        <img height="30" src="../assets/img/logominkay.png" width="150" style="float: left; padding-top: 2px" />
+                        <img height="30" src="../assets/img/demo.png" width="150" style="float: left; padding-top: 2px" />
                     </a>
                 </div>
                 <ul class="menuflotas">
