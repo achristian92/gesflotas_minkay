@@ -12,6 +12,6 @@ class DatoVehiculosTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(DatoVehiculo::class, 100)->create();
+        factory(DatoVehiculo::class, 50)->create();
     }
 }

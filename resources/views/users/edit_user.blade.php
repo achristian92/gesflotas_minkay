@@ -11,7 +11,7 @@
     </script>
     <script type="text/javascript">
         $(document).ready(function(){
-ObtenerTipoZona();
+
 ObtenerAgencia(); 
 ObtenerTipoUsuario();
 
@@ -67,13 +67,7 @@ ObtenerTipoUsuario();
                                     <input class="form-control" id="telefono" name="telefono" required="" type="number" value="{{ $usuarios->telefono }}">
                                     </input>
                                 </div>
-                                <div class="form-group">
-                                    <label for="name">
-                                        ZONA:
-                                    </label>
-                                    <select class="form-control" id="cboZonaVehiculo" name="cboZonaVehiculo" onchange="ObtenerAgencia()" required="">
-                                    </select>
-                                </div>
+                                
                                 <div class="form-group">
                                     <label for="name">
                                         AGENCIA:
@@ -126,35 +120,14 @@ ObtenerTipoUsuario();
 </html>
 @stop
 <script type="text/javascript">
-    function ObtenerTipoZona() {
-    $('#cboZonaVehiculo').empty();
-    $.ajax({
-        async: false,
-        type: 'GET',
-        url: '../../getTipoZonasJSON',
-        data: {},
-        dataType: 'json',
-        success: function(data) {
-            $('#cboZonaVehiculo').append('<option value="">::Seleccionar::</option>');
-            $.each(data, function(i, value) {
-                $('#cboZonaVehiculo').append('<option value="' + value.idtipo_zona + '">' + value.nombre_zona + '</option>');
-            });
-            $('select[name=cboZonaVehiculo]').val({{ $usuarios->idtipo_zona }}); 
-       
-        },
-        error: function(jqXHR, status, err) {
-            alert("Local error callback.");
-        }
-    });
-}
+
 function ObtenerAgencia() {
-    var CodigoZona = $('#cboZonaVehiculo').val();
-    if (CodigoZona != "") {
+    
         $('#idagencia').empty();
         $.ajax({
             async: false,
             type: 'GET',
-            url: '../../getAgenciasJSON/' + CodigoZona,
+            url: '../../sologetAgenciasJSON' ,
             data: {},
             dataType: 'json',
             success: function(data) {
@@ -170,10 +143,7 @@ function ObtenerAgencia() {
             }
 
         });
-    } else {
-        $('#idagencia').empty();
-        $('#idagencia').append('<option value="">::Seleccionar::</option>');
-    }
+    
 }
 function ObtenerTipoUsuario() {
     $('#idrol').empty();

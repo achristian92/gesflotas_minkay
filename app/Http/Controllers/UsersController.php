@@ -5,7 +5,7 @@ use GestionFlotas\Usuario;
 use Illuminate\Http\Request;
 use GestionFlotas\Http\Requests\UserRequest;
 use Illuminate\Support\Facades\DB;
-
+use Carbon\Carbon;
 class UsersController extends Controller
 {
     public function __construct(){
@@ -67,8 +67,9 @@ class UsersController extends Controller
     {
         $usuarios = DB::table('users')
          ->join('tb_tipos_agencias', 'users.idagencia', '=', 'tb_tipos_agencias.idagencia')
-         ->join('tb_tipos_zonas', 'tb_tipos_agencias.idtipo_zona', '=', 'tb_tipos_zonas.idtipo_zona')
+         //->join('tb_tipos_zonas', 'tb_tipos_agencias.idtipo_zona', '=', 'tb_tipos_zonas.idtipo_zona')
          ->where('id', $id)->first();
+         
         return view('users.edit_user',compact('usuarios'));
     
     }
