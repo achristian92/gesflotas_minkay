@@ -12,7 +12,7 @@ class DatoConductorsTableSeeder extends Seeder
     public function run()
     {
 
-        factory(DatoConductor::class, 50)->create();
+        factory(DatoConductor::class, 25)->create();
 
 
         
